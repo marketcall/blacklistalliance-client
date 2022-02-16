@@ -1,0 +1,27 @@
+{
+    "name": "marketcall/blacklistalliance-client",
+    "autoload": {
+        "psr-4": {
+            "Marketcall\\BlacklistallianceClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksandr Krivtcun",
+            "email": "a.krivtcun@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "ext-json": "*"
+    }
+}
