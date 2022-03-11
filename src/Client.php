@@ -37,7 +37,7 @@ class Client
 
     public function lookup(string $phone): array
     {
-        $uri = sprintf('/standard/api/v1/Lookup/key/%s/response/json/phone/%s',
+        $uri = sprintf('/standard/api/v1/Lookup/key/%s/phone/%s/response/json',
             $this->apiKey,
             $phone
         );

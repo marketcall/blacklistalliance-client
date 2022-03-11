@@ -40,7 +40,7 @@ class ClientTest extends TestCase
         $request = $container[0]['request'];
         $this->assertEquals('GET', $request->getMethod());
         $this->assertEquals(
-            'http://endpoint.example/standard/api/v1/Lookup/key/api-key/response/json/phone/11231234567',
+            'http://endpoint.example/standard/api/v1/Lookup/key/api-key/phone/11231234567/response/json',
             (string) $request->getUri()
         );
     }
